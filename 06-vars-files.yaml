@@ -4,5 +4,5 @@
   - vars.yaml
   tasks:
   - name: print override information
-    ansible.ansible.builtin.debug:
+    ansible.builtin.debug:
     msg: "hi, we are learning {{course}} from trainer {{trainer}}, duration {{duration}}."
